@@ -1,0 +1,172 @@
+<?phpxml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="../../www.w3.org/1999/xhtml/index.html">
+
+<!-- Mirrored from hbc.hackmii.com/faq/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Mar 2024 14:06:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+	<title>The Homebrew Channel</title>
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="../main.css" />
+	<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen, projection" href="/ie6sucks.css" /><![endif]-->
+        <!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="/ie7sucks.css" /><![endif]-->
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<!--[if lt IE 7.]>
+	<script defer type="text/javascript" src="/pngfix.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div id="container">
+<!--	<center> -->
+	<div id="header">
+		<br /><br /><br /><br />
+		<img alt="logo" src="../img/hbc_logo.png" />
+	</div>
+	<div id="nav" style="text-align:center;">
+		<br /><br />
+		<table border="0" width="91%" style="text-align:center;font-weight:bold;margin:0 auto;">
+			<tr>
+				<td class="navrow">
+					<a href="../about/index.html" class="nobord"><img alt="" class="nobord" src="../img/3d.png" /></a><br />
+					<a href="../about/index.html">About</a>
+				</td>
+				<td class="navrow">
+					<a href="../download/index.html" class="nobord"><img alt="" class="nobord" src="../img/down.png" /></a><br />
+					<a href="../download/index.html">Download</a>
+				</td>
+				<td class="navrow">
+					<a href="../credits/index.html" class="nobord"><img alt="" class="nobord" src="../img/services.png" /></a><br />
+					<a href="../credits/index.html">Credits</a>
+				</td>
+				<td class="navrow">
+					<a href="index.html" class="nobord"><img alt="" class="nobord" src="../img/faq.png" /></a><br />
+					<a href="index.html">F.A.Q.</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<div id="content">
+
+<h2>HackMii installer: Frequently Asked Questions</h2>
+<br/>
+
+<ul class="faq_list">
+
+<li>How do I run this installer?</li>
+<li style='list-style-type:none;font-weight:normal;'>If you already have The Homebrew Channel installed, you can just use it with your preferred way to run applications. Additionally, if a new version of The Homebrew Channel is available, you will get a confirmation dialog to download an update. That's exactly the same thing as launching a manually downloaded installer.<br/><br/>
+If you don't have The Homebrew Channel installed, use one of the following to run the installer:<br/>
+ <ul class="small">
+   <li> The <a href="../../wiibrew.org/wiki/Twilight_hack.html">Twilight Hack</a>.</li>
+   <li> <a href="../../wiibrew.org/wiki/Indiana_Pwns.html">Indiana Pwns</a>.</li>
+   <li> <a href="../../wiibrew.org/wiki/Bannerbomb.html">Bannerbomb</a>.</li>
+ </ul>
+<br/></li>
+
+<li>Do I need to uninstall any component before reinstalling or updating it?</li>
+<li style='list-style-type:none;font-weight:normal;'>No, just install it.<br/><br/></li>
+
+<li>Do I need to update my Wii to use the HackMii installer or any component that I can install with it?</li>
+<li style='list-style-type:none;font-weight:normal;'>No, everything just works with all system menu versions.<br/><br/></li>
+
+<li>But if I wanted to update my Wii, should I use one of those many homebrew update packs?</li>
+<li style='list-style-type:none;font-weight:normal;'>No, you should not. There are risks, and some packs are made of fail. Just update through the official means if you really want to.<br/><br/></li>
+
+<li>Okay, cool. But I heard that the v4.2 update comes with some essential bootloader update, and there are certain risks that might render my Wii unusable?</li>
+<li style='list-style-type:none;font-weight:normal;'>That's correct, read more about it <a href="http://hackmii.com/2009/09/silly_games/">here</a>.<br/><br/></li>
+
+<li>What about downgrading?</li>
+<li style='list-style-type:none;font-weight:normal;'>That would be the most stupid idea ever to harm your Wii. Don't.<br/><br/></li>
+
+<li>The installer tells me that it couldn't find a vulnerable IOS or something? What's that about?</li>
+<li style='list-style-type:none;font-weight:normal;'>The HackMii installer is the only program that can automatically make non-trivial system modifications on all Wiis. It has several different code paths (aka exploits) that it uses to do this; on any given Wii, the installer will scan your system to find the most appropriate one to use (generally, the most stable or least invasive one).<br/><br/>
+If you have recently installed an official update, this may mean that all of our existing exploits have been patched; in this case, please wait patiently for us to update the installer.<br/><br/>
+In most cases, however, this means you have installed some sort of "mod pack" (we refer to those as "failpack") which leaves your system in a damaged state that interferes with our system scan. In particular, "cIOSCORP" is known to be problematic because some idiot decided it would be smart to take some old version of IOS, change the version number, and overwrite all other IOSes. Other failpacks are less destructive, but that still means its not a good idea to use them.<br/><br/>
+You're basically on your own, for the sake of your Wii: get rid of the failpack.<br/><br/>
+<b>QUOTE:</b> &lt;FenrirWolf&gt; It refuses to run on those IOS's because the earlier versions of cIOScorp scooped out your Wii's innards and turned them into delicious Scrambled IOS Breakfast&trade;, which confused the crap out of their installer and gave TT all sorts of bizarre errors to scratch their heads over.
+<br/>
+<br/>
+</li>
+<li>The installer seems to hang, and I can't get past that scam screen. Is this a bug?</li>
+<li style='list-style-type:none;font-weight:normal;'>Maybe, but it's more likely that a failpack prevents the installer from working correctly. See above.<br/><br/></li>
+
+</ul>
+<br/><br/><br/>
+
+
+<h2>The Homebrew Channel: Frequently Asked Questions</h2>
+<br/>
+
+<ul class="faq_list">
+
+<li>What do I need to run it?</li>
+<li style='list-style-type:none;font-weight:normal;'>
+<ul class="small">
+   <li> A Wii.</li>
+   <li> A way to install it. See the installer section above.</li>
+	<li> A media to store the homebrew applications on you wish to launch. SD cards and USB mass storage devices are currently supported.</li>
+	<li> (Optional) A USBGecko to upload applications.</li>
+	<li> (Optional) A computer on the same network as your Wii to upload applications. Use the official client <a href="../../wiibrew.org/wiki/Wiiload.html">wiiload</a> or a compatible 3rd party application.</li>
+	<li> A Wii Remote or Gamecube pad. You can navigate using the WiiMote cursor, WiiMote buttons or a Gamecube controller.</li>
+</ul>
+<br/></li>
+
+<li>The networking seems to fail every now and then... if the icon goes dark what do I do?</li>
+<li style='list-style-type:none;font-weight:normal;'>Simply either click the network icon (lower right corner) with your Wii Remote, or hit Z on the Gamecube controller to reinitialise it.<br/><br/></li>
+
+<li>Why doesn't <a href="../../wiibrew.org/wiki/Wiiload.html">wiiload</a> work?</li>
+<li style='list-style-type:none;font-weight:normal;'>You need to set an environment variable -- WIILOAD -- to point to your Wii's IP address.  For example, on a Windows system, you would go to control panel -&gt; system -&gt; advanced -&gt; environment variables to set it up, and on a Linux or Mac OS X system you would do "export WIILOAD=tcp:192.168.0.30" (if that was your Wii's IP address; check this by hitting the Home button on your WiiMote.) For the ease of use on windows we suggest creating a shortcut to wiiload.exe on your desktop, and then you can simply drag&amp;drop your file on the shortcut to send it over.<br/><br/>
+</li>
+
+<li>Can I easily uninstall the channel?</li>
+<li style='list-style-type:none;font-weight:normal;'>Ofcourse, either use the uninstall feature of the installer, or just remove it as any other ordinary savegame or channel through "data management" in the Wii settings menu.<br/><br/></li>
+
+<li>Will this remove all traces of the channel?</li>
+<li style='list-style-type:none;font-weight:normal;'>No, since there are many logs and other tidbits that remain, created by the Wii software. However, none of these should cause any issues. We will address the problems if and when they come.<br/><br/></li>
+
+<li>I dont want the channel to automatically update itself, can I turn that off?</li>
+<li style='list-style-type:none;font-weight:normal;'>No you can't, but you will be prompted with a confirmation dialog when an update is out. Feel free to refuse it.<br/><br/></li>
+
+<li>Huh, my Homebrew Channel is upside down. The hell?</li>
+<li style='list-style-type:none;font-weight:normal;'>It's also mirrored. Your either replaced the IOS version used by The Homebrew Channel with a "failpack" (see installer section above), or you tried to modify the installation. Don't do that.<br/><br/></li>
+
+<li>I have a question but it is not answered here.</li>
+<li style='list-style-type:none;font-weight:normal;'>Please read the documentation included with the Homebrew Channel. Still unsure? Post about it on <a href="../../wiibrew.org/wiki/Homebrew_Channel/Help.html">this page</a>.<br/><br/></li>
+
+<li>I think I found a bug, where do I report it?</li>
+<li style='list-style-type:none;font-weight:normal;'>At our bugtracker, <a href="http://bugs.hackmii.com/index.php?project=6">here</a>. When filing a bug report, please attach the "installer.log" file to it. The installer created that log, you can find it in the root directory of your SD card.<br/><br/></li>
+
+</ul>
+<br/><br/><br/>
+
+
+<br />
+<br />
+<br />
+<br />
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<table style="border:none;">
+   <tr>
+      <td style="width:100px;">
+        <a class="nobord" href="../../validator.w3.org/check42d9.html?uri=referer"><img style="border:none;" src="../../www.w3.org/Icons/valid-xhtml11-blue.png" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+      </td>
+      <td style="width:100px;">
+  <a class="nobord" href="../../jigsaw.w3.org/css-validator/validatorcc1a.html"><img style="border:0;width:88px;height:31px" src="../../jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valid CSS!" /></a>
+      </td>
+      <td style="width:100px;">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="image" src="../../www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" class="nobord" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" class="nobord" src="../../www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+      </td>
+   </tr>
+</table>
+</form>
+	</div>
+</div>
+
+<div id="badge"></div>
+
+</body>
+
+<!-- Mirrored from hbc.hackmii.com/faq/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Mar 2024 14:07:02 GMT -->
+</html>
